@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <h1 class="bg-primary text-white text-center">Javascript DOM</h1>
+            <div class="row container">
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 1</a>
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 2</a>
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 3</a>
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 4</a>
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 5</a>
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 6</a>
+                <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 7</a>
+            </div>
+        </div>
+
+        <!-- EXO1 -->
+        <section class="container">
+            <h3 id="h3Exo1">Ben il a remporté 5 super bowl</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde velit nesciunt.</p>
+            <ul>
+                <li>bg crème</li>
+                <li>bg crème</li>
+                <li>bg crème</li>
+                <li>bg crème</li>
+                <li>bg crème</li>
+                <li>bg crème</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde velit nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde velit nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde velit nesciunt.</p>
+            <button id="btnExo1">change fils de</button>
+        </section>
+    </div>
+
+
+    <!-- EXO2 -->
+    <section class="container">
+        <p>Mettre addEventListener pour changer de pannel pour la nav et je rajoute des lignes</p>
+    </section>
+
+
+    <!-- EXO3 -->
+    <section class="container">
+        <h3 id="h3Exo3">Welcome inconnu</h3>
+        <p class="pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit magnam obcaecati hic
+            dolorum earum,
+            molestias commodi animi voluptatem illo facilis. Fugiat aut aliquid accusamus voluptatem quas amet atque
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, voluptates numquam, incidunt unde
+            temporibus porro consectetur sed explicabo, consequuntur asperiores eligendi esse beatae nemo architecto?
+            Maxime expedita corrupti et!
+            minima.</p>
+        <input id="inputExo3" type="text" name="" id="">
+        <button id="btnExo3">go</button>
+    </section>
+
+
+    <!-- EXO4 -->
+    <section class="container">
+        <h3 class="pb-4">Déplacer les élements</h3>
+        <div class="row pb-5">
+            <div id="div1Exo4" class="col-4 offset-1">
+                <div id="carreRouge">
+
+                </div>
+            </div>
+            <div id="div2Exo4" class="col-4 offset-2">
+                <div id="carreRouge2">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="div3Exo4">
+            <button id="btn1Exo4" class="mb-2 rounded p-2">Changer position</button>
+            <button id="btn2Exo4" class="rounded p-2">Nombres de click 0</button>
+        </div>
+    </section>
+
+
+    <!-- Exo5 -->
+    <section class="container">
+        <h3>Génerer des élements du DOM</h3>
+        <p>Appuyez sur le boutton ci-deesous pour afficher des oeux</p>
+        <button id="btnExo5" class="rounded p-2">Ajouter un oeuf</button>
+        <div id="divExo5">
+
+        </div>
+    </section>
+
+
+    <!-- Exo6 -->
+    <section class="container">
+        <h3 class="">Création calculatrice</h3>
+        <div>
+            <h4 class="pt-4">Niveau 1</h4>
+            <input id="input1Exo6" type="text">
+            +
+            <input id="input2Exo6" type="text">
+            <button id="btnExo6">=</button>
+            <input id="input3Exo6" type="text">
+        </div>
+        <div>
+            <h4 class="pt-4">Niveau 2</h4>
+        </div>
+
+        <div id="divExo6" class="w-25 bg-dark">
+            <div class="text-right">
+                <span id="span1Calc" class="text-white pr-1">?</span>
+            </div>
+            <div class="pl-2 pt-1">
+                <input id="inputCalc" type="text">
+            </div>
+            <hr>
+            <div class="px-2 divBtn">
+                <button class="chiffres">1</button>
+                <button class="chiffres">2</button>
+                <button class="chiffres">3</button>
+                <button id="plus" class="bg-primary operateurs">+</button>
+            </div>
+            <hr>
+            <div class="px-2 divBtn">
+                <button class="chiffres">4</button>
+                <button class="chiffres">5</button>
+                <button class="chiffres">6</button>
+                <button id="moins" class="bg-primary operateurs">-</button>
+            </div>
+            <hr>
+            <div class="px-2 divBtn">
+                <button class="chiffres">7</button>
+                <button class="chiffres">8</button>
+                <button class="chiffres">9</button>
+                <button id="fois" class="bg-primary operateurs">*</button>
+            </div>
+            <hr>
+            <div class="px-2 pb-2 divBtn">
+                <button id="grandC" class="bg-danger">C</button>
+                <button class="chiffres">0</button>
+                <button id="btnEgal" class="bg-success">=</button>
+                <button id="diviser" class="bg-primary operateurs">/</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <h3>Todo list</h3>
+        <hr>
+        <div>
+            <input id="inputTodo" class="w-100" type="text" placeholder="Que dois-je faire sahbé ?">
+        </div>
+        <div class="text-center pt-4">
+            <button class="btnTodo rounded mx-1">Tout</button>
+            <button class="btnTodo rounded mx-1">Fait</button>
+            <button class="btnTodo rounded mx-1">A faire</button>
+        </div>
+        <div id="divTodo">
+
+        </div>
+
+    </section>
+
+</body>
+
+<script type="module" src="/src/js/main.js"></script>
+
+</html>
