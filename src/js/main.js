@@ -14,7 +14,7 @@ for (let i=0; i < a.length; i++){
         lien : a[i],
         exo: sections[i]
     });
-    if (i!=6){
+    if (i!=0){
         sections[i].style.display = 'none'
     }
 }

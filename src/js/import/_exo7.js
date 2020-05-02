@@ -61,6 +61,12 @@ function exo7() {
         })
     })
 
+    //Ma fonctionne pour faire la modif
+    // let paragraphe = document.querySelector('section divTodo')[5];
+    // paragraphe.addEventListener('click', alert('lol'))
+
+    //fin
+
     divTodo.addEventListener('click', event => {
         tabFait.forEach(element => {
             if (element.children[0].checked) {
@@ -77,10 +83,11 @@ function exo7() {
         buttonsTodo[0].style.color = 'white'
 
         buttonsTodo[1].style.backgroundColor = ''
-        buttonsTodo[1].style.color = 'blue'
+        buttonsTodo[1].style.color = 'white'
         
         buttonsTodo[2].style.backgroundColor = ''
-        buttonsTodo[2].style.color = 'blue'
+        buttonsTodo[2].style.color = 'white'
+
         tabFait.forEach(element => {
             
             element.style.display = 'flex'
@@ -93,10 +100,11 @@ function exo7() {
         buttonsTodo[1].style.color = 'white'
 
         buttonsTodo[0].style.backgroundColor = ''
-        buttonsTodo[0].style.color = 'blue'
+        buttonsTodo[0].style.color = 'white'
         
         buttonsTodo[2].style.backgroundColor = ''
-        buttonsTodo[2].style.color = 'blue'
+        buttonsTodo[2].style.color = 'white'
+        
         tabFait.forEach(element => {
             if (element.children[0].checked) {
                 element.style.display = 'flex'
@@ -111,10 +119,11 @@ function exo7() {
         buttonsTodo[2].style.color = 'white'
 
         buttonsTodo[0].style.backgroundColor = ''
-        buttonsTodo[0].style.color = 'blue'
+        buttonsTodo[0].style.color = 'white'
         
         buttonsTodo[1].style.backgroundColor = ''
-        buttonsTodo[1].style.color = 'blue'
+        buttonsTodo[1].style.color = 'white'
+
         tabFait.forEach(element => {
             if (element.children[0].checked) {
                 element.style.display = 'none'
